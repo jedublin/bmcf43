@@ -67,7 +67,7 @@
     },
     "pwa-switcher": "on",
     "cssOptimize": true,
-    "lazyLoad": true,
+    "lazyLoad": false,
     "lazyType": "blur",
     "robotsSwitcher": false,
     "gdpr": false,
@@ -85,7 +85,7 @@
       "textButton": "Agree"
     },
     "chatbutton": {},
-    "modified": "2021-06-03T11:32:50.128Z"
+    "mbrsiteDomain": "2dhcfgpk3o"
   },
   "pages": {
     "index.html": {
@@ -1285,7 +1285,7 @@
         {
           "_customTemplate": true,
           "_afterNavbarItem": false,
-          "_customHTML": "<iframe frameborder=\"0\" style=\"height:800px;width:99%;border:none;\" src=\"https://forms.bmcustomfurniture.ie/bmcustomfurniture761/form/ContactForm/formperma/JToZZJ3Qg2WrVzNOz-MGgLQwKrLbAp9QuNkrC39i8Dc\"></iframe>",
+          "_customHTML": "<div id=\"zf_div_JToZZJ3Qg2WrVzNOz-MGgLQwKrLbAp9QuNkrC39i8Dc\"></div>[JS_CODE_0]",
           "_customCSS": "/* Type valid CSS here */\n\ndiv {\n  padding: 80px 0;\n  color: #777;\n  text-align: center;\n}\np {\n  font-size: 60px;\n  color: #777;\n}",
           "alias": "code-editor",
           "_tags": [
@@ -1294,7 +1294,9 @@
           "_name": "pro.custom-html",
           "_anchor": "custom-html-m",
           "_PHPplaceholders": [],
-          "_JSplaceholders": [],
+          "_JSplaceholders": [
+            "<script type=\"text/javascript\">(function() {\ntry{\nvar f = document.createElement(\"iframe\");\nf.src = 'https://forms.bmcustomfurniture.ie/bmcustomfurniture761/form/ContactForm/formperma/JToZZJ3Qg2WrVzNOz-MGgLQwKrLbAp9QuNkrC39i8Dc?zf_rszfm=1';\nf.style.border=\"none\";\nf.style.height=\"1420px\";\nf.style.width=\"90%\";\nf.style.transition=\"all 0.5s ease\";\nvar d = document.getElementById(\"zf_div_JToZZJ3Qg2WrVzNOz-MGgLQwKrLbAp9QuNkrC39i8Dc\");\nd.appendChild(f);\nwindow.addEventListener('message', function (){\nvar evntData = event.data;\nif( evntData && evntData.constructor == String ){\nvar zf_ifrm_data = evntData.split(\"|\");\nif ( zf_ifrm_data.length == 2 ) {\nvar zf_perma = zf_ifrm_data[0];\nvar zf_ifrm_ht_nw = ( parseInt(zf_ifrm_data[1], 10) + 15 ) + \"px\";\nvar iframe = document.getElementById(\"zf_div_JToZZJ3Qg2WrVzNOz-MGgLQwKrLbAp9QuNkrC39i8Dc\").getElementsByTagName(\"iframe\")[0];\nif ( (iframe.src).indexOf('formperma') > 0 && (iframe.src).indexOf(zf_perma) > 0 ) {\nvar prevIframeHeight = iframe.style.height;\nif ( prevIframeHeight != zf_ifrm_ht_nw ) {\niframe.style.height = zf_ifrm_ht_nw;\n}\n}\n}\n}\n}, false);\n}catch(e){}\n})();</script>"
+          ],
           "_sourceTheme": "woodm4"
         },
         {
